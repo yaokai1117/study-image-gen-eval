@@ -39,7 +39,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | Power Reinforcement Post-Training of T2I Models | [2605.10937](https://arxiv.org/abs/2605.10937) | 2026 | — | backlog | GenEval + UniGenBench++ eval, reward hacking |
 | AlphaGRPO | [2605.12495](https://arxiv.org/abs/2605.12495) | 2026 | — | backlog | Covers GenEval, TIIF-Bench, DPG-Bench, WISE |
 | Context Matters: Auditing Gender Bias in T2I | [2605.13113](https://arxiv.org/abs/2605.13113) | 2026 | — | backlog | Consolidates bias eval metrics |
-| HEIM: Holistic Evaluation of Text-to-Image Models | [2311.01516](https://arxiv.org/abs/2311.01516) | 2023 | — | backlog | Start here — maps the whole space |
+| HEIM: Holistic Evaluation of Text-to-Image Models | [2311.04287](https://arxiv.org/abs/2311.04287) | 2023 | — | **done** | Start here — maps the whole space |
 | FID (Fréchet Inception Distance) | [1706.08500](https://arxiv.org/abs/1706.08500) | 2017 | — | backlog | Foundational metric |
 | CLIP Score | [2104.08718](https://arxiv.org/abs/2104.08718) | 2021 | 2,956 | backlog | Text-image alignment; highly cited |
 | T2I-CompBench | [2307.06350](https://arxiv.org/abs/2307.06350) | 2023 | — | backlog | Compositional eval |
