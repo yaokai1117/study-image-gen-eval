@@ -18,6 +18,10 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | [clean-fid](https://github.com/GaParmar/clean-fid) | — | FID metric implementation | backlog | |
 | [torch-fidelity](https://github.com/toshas/torch-fidelity) | — | IS, FID, KID metrics | backlog | v0.4.0 released 2026-02-17 |
 | [Karine-Huang/T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) | 339 | Compositional text-to-image eval | backlog | |
+| [ziqihuangg/Awesome-Evaluation-of-Visual-Generation](https://github.com/ziqihuangg/Awesome-Evaluation-of-Visual-Generation) | 437 | Curated list of visual generation eval methods, metrics, and systems | backlog | Good reference index; last updated Jun 2025 |
+| [chaofengc/Awesome-Image-Quality-Assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment) | 1500 | Comprehensive IQA paper collection + IQA-PyTorch implementations | backlog | High stars; useful for IQA metric implementations |
+| [open-compass/GenEditEvalKit](https://github.com/open-compass/GenEditEvalKit) | 43 | Unified eval toolkit for image generation and editing across benchmarks | backlog | New (Mar 2026); extensible architecture, low stars but recent |
+| [KlingAIResearch/T2I-CoReBench](https://github.com/KlingAIResearch/T2I-CoReBench) | 53 | Compositional + reasoning eval benchmark for T2I, ICLR 2026 | backlog | Complements T2I-CompBench; focuses on reasoning dimension |
 
 ---
 
