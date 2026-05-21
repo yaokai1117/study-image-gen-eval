@@ -111,6 +111,7 @@ Work requires Google model stack: **Gemini / Gemini Nano**. Any hands-on experim
 3. Review and annotate the draft note
 4. Save to `blogs/<slug>.md`:
    ```
+   ## Background concepts          ← add if post assumes unfamiliar methods/math
    ## Problem they were solving
    ## Approach / engineering decisions
    ## Metrics / eval methods used
@@ -125,8 +126,10 @@ Work requires Google model stack: **Gemini / Gemini Nano**. Any hands-on experim
 2. Find the ar5iv HTML version: `ar5iv.org/abs/<arxiv-id>` (easier for Claude to fetch than PDF)
 3. Give Claude the URL: ask to extract — problem, proposed metric, how computed, known limitations, what it replaces
 4. Review and annotate the draft note
-5. Save to `papers/<slug>.md`:
+5. **Identify background concepts** — note any methods, algorithms, or math the paper builds on that are unfamiliar (e.g., GP, BQ, contrastive learning). Ask Claude to explain them, then add as a `## Background concepts` section in the note *before* the main content
+6. Save to `papers/<slug>.md`:
    ```
+   ## Background concepts          ← new: explain prerequisite methods/math
    ## Problem
    ## Proposed metric / method
    ## How it's computed
@@ -135,7 +138,7 @@ Work requires Google model stack: **Gemini / Gemini Nano**. Any hands-on experim
    ## Relevance to engineering practice
    ## Source: <arxiv url>
    ```
-6. Update tracker status to `done`
+7. Update tracker status to `done`
 
 ### Friday — Synthesis
 
