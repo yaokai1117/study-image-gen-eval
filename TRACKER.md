@@ -8,7 +8,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 
 | Repo | Stars | Topic | Status | Notes |
 |------|-------|-------|--------|-------|
-| [sayakpaul/cmmd-pytorch](https://github.com/sayakpaul/cmmd-pytorch) | 166 | CMMD — CLIP Maximum Mean Discrepancy, FID alternative | **up-next** | Tue 2026-05-19; 451 citations on underlying paper; small readable codebase |
+| [sayakpaul/cmmd-pytorch](https://github.com/sayakpaul/cmmd-pytorch) | 166 | CMMD — CLIP Maximum Mean Discrepancy, FID alternative | **done** | notes in code-notes/cmmd-pytorch.md |
 | [zai-org/ImageReward](https://github.com/zai-org/ImageReward) | 1672 | Human preference learning & eval for T2I | backlog | 1,443 citations — foundational, high priority |
 | [Vchitect/Evaluation-Agent](https://github.com/Vchitect/Evaluation-Agent) | 125 | Eval image/video gen like humans — fast + explainable | backlog | ACL2025 Oral, 35 citations |
 | [PKU-YuanGroup/WISE](https://github.com/PKU-YuanGroup/WISE) | 201 | World knowledge-informed semantic eval | backlog | ICML 2026, 129 citations, recent + gaining traction |
