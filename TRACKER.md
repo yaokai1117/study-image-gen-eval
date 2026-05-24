@@ -39,7 +39,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 
 | Title | arXiv | Year | Citations | Status | Notes |
 |-------|-------|------|-----------|--------|-------|
-| Efficient Adjoint Matching for Fine-tuning Diffusion Models | [2605.11480](https://arxiv.org/abs/2605.11480) | 2026 | — | **up-next** | Thu 2026-05-21; covers PickScore, ImageReward, HPSv2.1, CLIPScore in one paper |
+| Efficient Adjoint Matching for Fine-tuning Diffusion Models | [2605.11480](https://arxiv.org/abs/2605.11480) | 2026 | — | **done** | notes in papers/efficient-adjoint-matching.md |
 | Power Reinforcement Post-Training of T2I Models | [2605.10937](https://arxiv.org/abs/2605.10937) | 2026 | — | backlog | GenEval + UniGenBench++ eval, reward hacking |
 | AlphaGRPO | [2605.12495](https://arxiv.org/abs/2605.12495) | 2026 | — | backlog | Covers GenEval, TIIF-Bench, DPG-Bench, WISE |
 | Context Matters: Auditing Gender Bias in T2I | [2605.13113](https://arxiv.org/abs/2605.13113) | 2026 | — | backlog | Consolidates bias eval metrics |
