@@ -18,8 +18,29 @@ Carry-overs from last week: all `up-next` items still valid.
 - **Wed 2026-05-20** — ProEval blog (Google DeepMind): proactive failure discovery methodology
 - **Thu 2026-05-21** — Efficient Adjoint Matching paper: covers PickScore, ImageReward, HPSv2.1, CLIPScore
 
-### Key insights / open questions
-- *(to be filled in as the week progresses)*
+### What I covered
+
+- **Tuesday (code)** — `sayakpaul/cmmd-pytorch`: CMMD metric internals (CLIP embeddings + MMD with Gaussian RBF kernel), O(n²d) complexity, σ=10 bandwidth, comparison with FID; added Google stack section (Vertex AI Multimodal Embeddings as drop-in, σ re-tuning)
+- **Wednesday (blog)** — ProEval (Google DeepMind, Apr 2026): active eval via GP surrogates + Bayesian Quadrature for performance estimation, superlevel set sampling + LLM synthesis for failure discovery; learned GP and BQ from scratch as background
+- **Thursday (paper)** — Efficient Adjoint Matching (2026): focused on human preference metrics — PickScore (pairwise CLIP-based, Pick-a-Pic dataset), ImageReward (BLIP-based, unbounded scalar), HPSv2.1 (style-diverse pairwise); comparison table and diagnostic guide
+
+### Key insights
+
+- **CMMD's practical advantage is sample size** — works at ~300 images vs FID's 10k; the non-parametric MMD avoids the Gaussian assumption that breaks down on small sets
+- **Learned reward models are the right eval target for preference-aligned generation** — PickScore/ImageReward/HPSv2.1 all trained on human preference data; CLIPScore alone is insufficient and the gap is measurable
+- **High CLIPScore + low PickScore = aligned but not preferred** — a model can be semantically correct but aesthetically displeasing; preference metrics catch this, CLIP doesn't
+- **Active eval is a fundamentally different frame** — ProEval treats input selection as a sequential decision problem; random sampling is the baseline to beat, not the default to use; 8–65x more sample-efficient
+- **Performance estimation ≠ failure discovery** — require different objectives, different metrics; conflating them misses rare severe failures
+
+### Open questions / carry-overs
+
+- How does VQA-based compositional eval work? → T2I-CompBench still in backlog
+- Can PickScore/ImageReward be used as training rewards without reward hacking? → Power Reinforcement paper (in backlog)
+- Does active eval degrade when GP prior diverges from the model being evaluated?
+
+### Next week focus
+
+*(to be set on Monday intake)*
 
 ---
 
