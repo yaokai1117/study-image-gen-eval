@@ -2,6 +2,31 @@
 
 ---
 
+## Week of 2026-05-25
+
+### Intake (Monday)
+
+New items added to backlog:
+- **Repos:** OneIG-Bench/OneIG-Benchmark (120★, NeurIPS 2025 DB), yzc-ippl/LongT2IBench (6★, AAAI 2026 Oral)
+- **Papers:** ImagenWorld (2603.27862, 2026) — explainable human eval with 3.6K condition sets across 6 tasks × 6 domains, 20K human annotations
+- **Blogs:** none new beyond existing backlog
+
+Carry-overs from last week: all backlog items still valid.
+
+### This week focus
+- **Tue 2026-05-27** — `Karine-Huang/T2I-CompBench`: VQA-based compositional eval — answers the persistent open question from weeks 1–2
+- **Wed 2026-05-28** — "Image Generators are Generalist Vision Learners" (Google DeepMind, Apr 22): what does image generation training actually teach the model?
+- **Thu 2026-05-29** — Power Reinforcement Post-Training (2605.10937): reward hacking question — can PickScore/ImageReward be used as training signals?
+
+### What I covered
+
+*(to be filled in as the week progresses)*
+
+### Key insights / open questions
+*(to be filled in)*
+
+---
+
 ## Week of 2026-05-18
 
 ### Intake (Monday)

@@ -17,11 +17,13 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | [PicoTrex/GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval) | 306 | Evaluates GPT-4o image generation | backlog | Practical comparison baseline |
 | [clean-fid](https://github.com/GaParmar/clean-fid) | — | FID metric implementation | backlog | |
 | [torch-fidelity](https://github.com/toshas/torch-fidelity) | — | IS, FID, KID metrics | backlog | v0.4.0 released 2026-02-17 |
-| [Karine-Huang/T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) | 339 | Compositional text-to-image eval | backlog | |
+| [Karine-Huang/T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) | 339 | Compositional text-to-image eval | **up-next** | answers persistent open question: VQA-based compositional eval |
 | [ziqihuangg/Awesome-Evaluation-of-Visual-Generation](https://github.com/ziqihuangg/Awesome-Evaluation-of-Visual-Generation) | 437 | Curated list of visual generation eval methods, metrics, and systems | backlog | Good reference index; last updated Jun 2025 |
 | [chaofengc/Awesome-Image-Quality-Assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment) | 1500 | Comprehensive IQA paper collection + IQA-PyTorch implementations | backlog | High stars; useful for IQA metric implementations |
 | [open-compass/GenEditEvalKit](https://github.com/open-compass/GenEditEvalKit) | 43 | Unified eval toolkit for image generation and editing across benchmarks | backlog | New (Mar 2026); extensible architecture, low stars but recent |
 | [KlingAIResearch/T2I-CoReBench](https://github.com/KlingAIResearch/T2I-CoReBench) | 53 | Compositional + reasoning eval benchmark for T2I, ICLR 2026 | backlog | Complements T2I-CompBench; focuses on reasoning dimension |
+| [OneIG-Bench/OneIG-Benchmark](https://github.com/OneIG-Bench/OneIG-Benchmark) | 120 | Omni-dimensional T2I eval: alignment, text rendering, reasoning, style, diversity | backlog | NeurIPS 2025 DB; arxiv 2506.07977; covers dims missing from HEIM |
+| [yzc-ippl/LongT2IBench](https://github.com/yzc-ippl/LongT2IBench) | 6 | Benchmark for long-text T2I generation with graph-structured annotations | backlog | AAAI 2026 Oral; low stars but unique long-prompt angle |
 
 ---
 
@@ -30,7 +32,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | Title | Source | Date | Status | Notes |
 |-------|--------|------|--------|-------|
 | [ProEval: Proactive Failure Discovery for Generative AI Evaluation](https://arxiv.org/abs/2604.23099) | Google DeepMind | Apr 25, 2026 | **done** | notes in blogs/proeval-google-deepmind.md |
-| [Image Generators are Generalist Vision Learners](https://deepmind.google/research/publications/) | Google DeepMind | Apr 22, 2026 | backlog | Image gen capabilities angle |
+| [Image Generators are Generalist Vision Learners](https://deepmind.google/research/publications/) | Google DeepMind | Apr 22, 2026 | **up-next** | Image gen capabilities angle |
 | [Scaling How We Build and Test Our Most Advanced AI](https://ai.meta.com/blog/) | Meta AI | Apr 8, 2026 | backlog | Evaluation methodology at scale |
 
 ---
@@ -40,7 +42,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | Title | arXiv | Year | Citations | Status | Notes |
 |-------|-------|------|-----------|--------|-------|
 | Efficient Adjoint Matching for Fine-tuning Diffusion Models | [2605.11480](https://arxiv.org/abs/2605.11480) | 2026 | — | **done** | notes in papers/efficient-adjoint-matching.md |
-| Power Reinforcement Post-Training of T2I Models | [2605.10937](https://arxiv.org/abs/2605.10937) | 2026 | — | backlog | GenEval + UniGenBench++ eval, reward hacking |
+| Power Reinforcement Post-Training of T2I Models | [2605.10937](https://arxiv.org/abs/2605.10937) | 2026 | — | **up-next** | GenEval + UniGenBench++ eval, reward hacking |
 | AlphaGRPO | [2605.12495](https://arxiv.org/abs/2605.12495) | 2026 | — | backlog | Covers GenEval, TIIF-Bench, DPG-Bench, WISE |
 | Context Matters: Auditing Gender Bias in T2I | [2605.13113](https://arxiv.org/abs/2605.13113) | 2026 | — | backlog | Consolidates bias eval metrics |
 | HEIM: Holistic Evaluation of Text-to-Image Models | [2311.04287](https://arxiv.org/abs/2311.04287) | 2023 | — | **done** | Start here — maps the whole space |
@@ -48,3 +50,4 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | CLIP Score | [2104.08718](https://arxiv.org/abs/2104.08718) | 2021 | 2,956 | backlog | Text-image alignment; highly cited |
 | T2I-CompBench | [2307.06350](https://arxiv.org/abs/2307.06350) | 2023 | — | backlog | Compositional eval |
 | CMMD: Rethinking FID | — | 2024 | 451 | backlog | Underlying paper for cmmd-pytorch |
+| ImagenWorld | [2603.27862](https://arxiv.org/abs/2603.27862) | 2026 | — | backlog | Explainable human eval; 3.6K condition sets, 6 tasks × 6 domains, 20K human annotations; from TIGER-AI-Lab (same as ImagenHub) |
