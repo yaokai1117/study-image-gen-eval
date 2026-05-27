@@ -17,7 +17,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | [PicoTrex/GPT-ImgEval](https://github.com/PicoTrex/GPT-ImgEval) | 306 | Evaluates GPT-4o image generation | backlog | Practical comparison baseline |
 | [clean-fid](https://github.com/GaParmar/clean-fid) | — | FID metric implementation | backlog | |
 | [torch-fidelity](https://github.com/toshas/torch-fidelity) | — | IS, FID, KID metrics | backlog | v0.4.0 released 2026-02-17 |
-| [Karine-Huang/T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) | 339 | Compositional text-to-image eval | **up-next** | answers persistent open question: VQA-based compositional eval |
+| [Karine-Huang/T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) | 339 | Compositional text-to-image eval | **done** | notes in code-notes/t2i-compbench.md |
 | [ziqihuangg/Awesome-Evaluation-of-Visual-Generation](https://github.com/ziqihuangg/Awesome-Evaluation-of-Visual-Generation) | 437 | Curated list of visual generation eval methods, metrics, and systems | backlog | Good reference index; last updated Jun 2025 |
 | [chaofengc/Awesome-Image-Quality-Assessment](https://github.com/chaofengc/Awesome-Image-Quality-Assessment) | 1500 | Comprehensive IQA paper collection + IQA-PyTorch implementations | backlog | High stars; useful for IQA metric implementations |
 | [open-compass/GenEditEvalKit](https://github.com/open-compass/GenEditEvalKit) | 43 | Unified eval toolkit for image generation and editing across benchmarks | backlog | New (Mar 2026); extensible architecture, low stars but recent |
