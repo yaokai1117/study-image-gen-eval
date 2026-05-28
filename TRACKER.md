@@ -32,7 +32,7 @@ Status flow: `backlog` → `up-next` → `in-progress` → `done`
 | Title | Source | Date | Status | Notes |
 |-------|--------|------|--------|-------|
 | [ProEval: Proactive Failure Discovery for Generative AI Evaluation](https://arxiv.org/abs/2604.23099) | Google DeepMind | Apr 25, 2026 | **done** | notes in blogs/proeval-google-deepmind.md |
-| [Image Generators are Generalist Vision Learners](https://deepmind.google/research/publications/) | Google DeepMind | Apr 22, 2026 | **up-next** | Image gen capabilities angle |
+| [Image Generators are Generalist Vision Learners](https://deepmind.google/research/publications/) | Google DeepMind | Apr 22, 2026 | **done** | notes in blogs/image-generators-generalist-vision-learners.md |
 | [Scaling How We Build and Test Our Most Advanced AI](https://ai.meta.com/blog/) | Meta AI | Apr 8, 2026 | backlog | Evaluation methodology at scale |
 
 ---
